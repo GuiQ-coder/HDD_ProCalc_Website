@@ -1,9 +1,9 @@
 :root {
-    --primary-dark: #550000; /* Rojo oscuro */
-    --primary-light: #AA0000; /* Rojo intenso */
-    --text-light: #FFFFFF; /* Blanco */
-    --text-dark: #000000; /* Negro */
-    --bg-dark: #1A1A1A; /* Fondo oscuro */
+    --primary-dark: #550000;
+    --primary-light: #AA0000;
+    --text-light: #FFFFFF;
+    --text-dark: #000000;
+    --bg-dark: #1A1A1A;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header/Navbar */
+/* Header */
 header {
     background-color: black;
     padding: 1rem 2rem;
@@ -97,7 +97,7 @@ header {
     cursor: pointer;
 }
 
-/* Hero Section */
+/* Primera sección */
 .hero {
     height: 100vh;
     display: flex;
@@ -130,7 +130,7 @@ header {
     opacity: 0.9;
 }
 
-/* Hero Logo */
+
 .hero-logo {
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ header {
 }
 
 .hero-logo img {
-    width: 160px; /* Ajusta este valor para hacer el icono más pequeño o grande */
+    width: 160px;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -154,7 +154,7 @@ header {
     color: var(--primary-light);
 }
 
-/* Ajustes para el contenido hero */
+
 .hero-content h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -164,12 +164,67 @@ header {
     color: var(--primary-light);
 }
 
+
+.app-mockups {
+    padding: 5rem 2rem;
+    background-color: var(--bg-dark);
+    text-align: center;
+}
+
+.section-title {
+    color: var(--text-light);
+}
+
+.mockup-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 3rem;
+    padding: 0 5%;
+}
+
+.app-screenshot {
+    width: 280px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.app-screenshot img {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+    object-fit: contain;
+    filter: drop-shadow(0 5px 15px rgba(170, 0, 0, 0.3));
+    transition: all 0.3s ease;
+}
+
+.app-screenshot:hover img {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 8px 20px rgba(170, 0, 0, 0.4));
+}
+
+.app-screenshot p {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    color: var(--text-light);
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+
+.app-screenshot:hover {
+    transform: scale(1.02);
+}
+
+
+
 .store-badges {
     display: flex;
     justify-content: center;
     gap: 15px;
     margin: 15px 0;
-    align-items: center; /* Asegura que ambos badges estén alineados verticalmente */
+    align-items: center;
 }
 
 .badge {
@@ -182,54 +237,54 @@ header {
     background: #eee;
     font-size: 16px;
     transition: all 0.3s;
-    height: 45px; /* Aumenté ligeramente la altura */
+    height: 45px;
     width: 150px;
-    position: relative; /* Para ajustes finos */
+    position: relative;
 }
 
-/* Ajustes específicos para cada ícono */
+
 .badge i {
     font-size: 24px;
-    width: 30px; /* Ancho fijo para ambos íconos */
-    text-align: center; /* Centra el ícono en su espacio asignado */
+    width: 30px;
+    text-align: center;
     margin-right: 8px;
 }
 
-/* Corrección específica para el ícono de Apple (suele ser más ancho) */
+
 .badge.app-store i {
     position: relative;
-    left: -2px; /* Ajuste fino para centrar visualmente */
+    left: -2px;
 }
 
 .badge .text {
     display: flex;
     flex-direction: column;
     line-height: 1.1;
-    justify-content: center; /* Centra verticalmente el texto */
-    flex-grow: 1; /* Ocupa todo el espacio disponible */
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .badge .text span:first-child {
     font-size: 8px;
-    letter-spacing: 0.5px; /* Mejor legibilidad */
-    margin-bottom: 1px; /* Espacio controlado entre líneas */
+    letter-spacing: 0.5px;
+    margin-bottom: 1px;
 }
 
 .badge .text span:last-child {
-    font-size: 14px; /* Tamaño ligeramente menor para la línea principal */
-    font-weight: 600; /* Más prominente */
+    font-size: 14px;
+    font-weight: 600;
 }
 
-/* Efecto hover refinado */
+
 .badge:hover {
     background: #e0e0e0;
     transform: scale(1.03);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Color de íconos más consistente */
+
 .badge i {
-    color: #555; /* Gris más oscuro para mejor contraste */
+    color: #555;
 }
 .cta-btn {
     display: inline-block;
@@ -248,7 +303,7 @@ header {
     color: var(--primary-light);
 }
 
-/* Features Section */
+/* Características */
 .features {
     padding: 5rem 10%;
     background-color: var(--bg-dark);
@@ -294,7 +349,7 @@ header {
     margin-bottom: 1rem;
 }
 
-/* App Showcase */
+/* Youtube */
 .showcase {
     padding: 5rem 10%;
     text-align: center;
@@ -304,7 +359,7 @@ header {
     max-width: 800px;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
@@ -403,6 +458,16 @@ footer {
         font-size: 2.5rem;
     }
 
+    .mockup-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .app-screenshot {
+        width: 80%;
+        max-width: 300px;
+    }
 
     
 }

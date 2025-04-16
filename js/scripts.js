@@ -1,4 +1,3 @@
-// Datos dinámicos
 const featuresData = [
     {
         icon: "fa-calculator",
@@ -24,7 +23,6 @@ const footerLinks = [
     { text: "Términos", href: "#" }
 ];
 
-// Inicialización
 document.addEventListener('DOMContentLoaded', () => {
     renderFeatures();
     renderFooterLinks();
@@ -32,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupScrollEffects();
 });
 
-// Funciones
+
 function renderFeatures() {
     const container = document.querySelector('.features-grid');
     container.innerHTML = featuresData.map(feature => `
@@ -71,7 +69,7 @@ function setupMenu() {
 }
 
 function setupScrollEffects() {
-    // Scroll suave
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -81,7 +79,7 @@ function setupScrollEffects() {
         });
     });
 
-    // Efecto al hacer scroll
+
     window.addEventListener('scroll', () => {
         const header = document.querySelector('header');
         header.style.boxShadow = window.scrollY > 10 ? 
@@ -92,11 +90,24 @@ function setupScrollEffects() {
 
 const heroTitle = document.querySelector('.hero h2');
 const originalText = heroTitle.textContent;
-let i = 0;
+
+heroTitle.style.visibility = 'hidden';
+heroTitle.style.height = 'auto';
+heroTitle.style.display = 'inline-block';
+
+const width = heroTitle.offsetWidth;
+const height = heroTitle.offsetHeight;
+
+heroTitle.style.visibility = 'visible';
+heroTitle.style.height = height + 'px';
 heroTitle.textContent = '';
 
+let i = 0;
 const typeWriter = setInterval(() => {
     heroTitle.textContent += originalText[i];
     i++;
-    if (i === originalText.length) clearInterval(typeWriter);
+    if (i === originalText.length) {
+        clearInterval(typeWriter);
+        heroTitle.style.height = 'auto';
+    }
 }, 60);
