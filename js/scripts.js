@@ -19,8 +19,8 @@ const featuresData = [
 const footerLinks = [
     { text: "Características", href: "#features" },
     { text: "Demo", href: "#showcase" },
-    { text: "Soporte", href: "#contact" },
-    { text: "Términos", href: "#" }
+    { text: "Soporte", href: "about.html#contact" },
+    { text: "Términos", href: "about.html#terms" }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -49,44 +49,80 @@ function renderFooterLinks() {
     `).join('');
 }
 
-function setupMenu() {
+document.addEventListener('DOMContentLoaded', function() {
     const menuBtn = document.getElementById('menuBtn');
     const navLinks = document.getElementById('navLinks');
+    
+    // Verifica que los elementos existen
+    if(menuBtn && navLinks) {
+      menuBtn.addEventListener('click', function() {
 
-    menuBtn.addEventListener('click', () => {
         navLinks.classList.toggle('active');
-        menuBtn.querySelector('i').classList.toggle('fa-times');
-    });
-
+        
+        // Cambiar icono de hamburguesa a X y viceversa
+        const icon = this.querySelector('i');
+        if(navLinks.classList.contains('active')) {
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-times');
+        } else {
+          icon.classList.remove('fa-times');
+          icon.classList.add('fa-bars');
+        }
+      });
+    }
+    
+    
     document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', () => {
-            if (window.innerWidth <= 768) {
-                navLinks.classList.remove('active');
-                menuBtn.querySelector('i').classList.remove('fa-times');
-            }
-        });
+      link.addEventListener('click', function() {
+        if(window.innerWidth <= 768) {
+          navLinks.classList.remove('active');
+          const icon = menuBtn.querySelector('i');
+          icon.classList.remove('fa-times');
+          icon.classList.add('fa-bars');
+        }
+      });
     });
-}
+  });
 
-function setupScrollEffects() {
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Manejar enlaces internos en la misma página
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        
+        // Si es un enlace a otra página
+        if(targetId.includes('.html')) {
+          return;
+        }
+        
+        e.preventDefault();
+        const targetElement = document.querySelector(targetId);
+        if(targetElement) {
+          const headerHeight = document.querySelector('header').offsetHeight;
+          window.scrollTo({
+            top: targetElement.offsetTop - headerHeight - 20,
+            behavior: 'smooth'
+          });
+        }
+      });
     });
-
-
-    window.addEventListener('scroll', () => {
-        const header = document.querySelector('header');
-        header.style.boxShadow = window.scrollY > 10 ? 
-            '0 2px 15px rgba(0, 0, 0, 0.7)' : 
-            '0 2px 10px rgba(0, 0, 0, 0.5)';
-    });
-}
+    
+    // Manejar scroll al cargar página con hash
+    if(window.location.hash) {
+      const targetElement = document.querySelector(window.location.hash);
+      if(targetElement) {
+        setTimeout(() => { // Pequeño delay para asegurar que el DOM está listo
+          const headerHeight = document.querySelector('header').offsetHeight;
+          window.scrollTo({
+            top: targetElement.offsetTop - headerHeight - 20,
+            behavior: 'smooth'
+          });
+        }, 100);
+      }
+    }
+  });
 
 const heroTitle = document.querySelector('.hero h2');
 const originalText = heroTitle.textContent;
@@ -110,4 +146,4 @@ const typeWriter = setInterval(() => {
         clearInterval(typeWriter);
         heroTitle.style.height = 'auto';
     }
-}, 60);
+}, 50);
