@@ -1,0 +1,100 @@
+{
+    "home": {
+        "title": "HDD ProCalc - Your directional drilling calculations",
+        "heroTitle": "The ultimate tool for <span>HDD</span>",
+        "heroSubtitle": "Calculate, plan and optimize your drilling projects.",
+        "ctaButton": "Coming soon to mobile devices",
+        "comingSoon": "Coming soon...",
+        "mockupTitle": "Discover the <span>app</span>",
+        "mockupText1": "Multiple languages",
+        "mockupText2": "Multiple features",
+        "mockupText3": "Intuitive interface"
+    },
+    "about": {
+        "title": "About HDD ProCalc",
+        "header": "About HDD ProCalc",
+        "subtitle": "The ultimate tool for directional drilling professionals",
+        "ourApp": "Our Application",
+        "appDescription": "HDD ProCalc is a mobile application designed for horizontal directional drilling (HDD) professionals who need to perform accurate and fast calculations in the field. Our mission is to simplify technical processes and improve efficiency in drilling projects.",
+        "timeline": {
+            "concept": "Initial Concept",
+            "conceptText": "The idea for HDD ProCalc was born from the need for a reliable tool for quick calculations without requiring an internet connection.",
+            "development": "Development",
+            "developmentText": "Active development of the application began, incorporating feedback from industry professionals to ensure it covered all sector needs.",
+            "launch": "Launch",
+            "launchText": "HDD ProCalc is scheduled to launch in the first half of 2025, available on both the App Store and Google Play."
+        },
+        "team": "Our Team",
+        "roles": {
+            "developer": "Developer",
+            "hddProfessional": "HDD Professional"
+        },
+        "docs": "Documentation",
+        "terms": {
+            "title": "Terms of Service",
+            "text1": "By using HDD ProCalc, you agree to our Terms of Service. The application is designed to provide calculations based on user input, but we are not responsible for decisions made based on these results.",
+            "text2": "The application is intended to be used as a support tool and does not replace the professional judgment of qualified engineers."
+        },
+        "privacy": {
+            "title": "Privacy Policy",
+            "text": "We respect your privacy. HDD ProCalc does not collect or store your personal data without your consent. Calculations performed in the application remain on your device unless you choose to share them."
+        },
+        "manual": {
+            "title": "User Manual",
+            "text1": "HDD ProCalc includes in-app manuals, and built-in functions have detailed descriptions for easy understanding. We also offer video tutorials and a FAQ section.",
+            "text2": "Regular updates will include new features and improvements based on user feedback."
+        },
+        "license": {
+            "title": "License",
+            "text1": "HDD ProCalc is available under a personal use license, we provide the features to the user free of charge.",
+            "text2": "Redistribution or modification of the code is strictly prohibited without express authorization."
+        }
+    },
+    "contact": {
+        "title": "Contact & Support",
+        "description": "For questions, suggestions or problem reports, please contact us:",
+        "email": "Email",
+        "phone": "Phone",
+        "backButton": "Back to home page"
+    },
+    "nav": {
+        "features": "Features",
+        "about": "About",
+        "contact": "Contact"
+    },
+
+    "features": {
+        "title":"Principal <span>Specs</span>",
+        "items": [
+            {
+                "icon": "fa-calculator",
+                "title": "Precisse Calculations",
+                "description": "Differents calculators offered to user."
+            },
+            {
+                "icon": "fa-users",
+                "title": "Plannification",
+                "description": "Customized advice."
+            },
+            {
+                "icon": "fa-file-export",
+                "title": "PDF Reports",
+                "description": "Automatic documentation generation."
+            }
+        ]
+    },
+    "showcase": {
+        "title": "Stay <span>tuned</span>"
+    },
+
+    "footer": {
+        "links": [
+          { "text": "Features", "href": "#features" },
+          { "text": "Demo", "href": "#showcase" },
+          { "text": "Support", "href": "about.html#contact" },
+          { "text": "Terms", "href": "about.html#terms" }
+        ]
+      }
+
+    
+}

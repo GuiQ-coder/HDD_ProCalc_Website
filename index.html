@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HDD ProCalc - Tus cálculos para perforación direccional</title>
+    <title data-i18n="home.title">HDD ProCalc - Tus cálculos para perforación direccional</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -16,9 +16,15 @@
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#features">Características</a></li>
-                <li><a href="about.html">Acerca de</a></li>
-                <li><a href="about.html#contact">Contacto</a></li>
+                <li><a href="#features" data-i18n="nav.features">Características</a></li>
+                <li><a href="about.html" data-i18n="nav.about">Acerca de</a></li>
+                <li><a href="about.html#contact" data-i18n="nav.contact">Contacto</a></li>
+                <li>
+                    <div class="language-switcher">
+                        <button class="lang-btn" data-lang="es">ES</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
@@ -30,51 +36,50 @@
             <h1>HDD <span>ProCalc</span></h1>
         </div>
         <div class="hero-content animated fadeIn">
-            <h2>La herramienta definitiva para <span>HDD</span></h2>
-            <p>Calcula, planifica y optimiza tus proyectos de perforación.</p>
-            <a href="#" class="cta-btn">Próximamente en dispositivos móviles</a>
+            <h2 data-i18n-html="home.heroTitle" id="hero">La herramienta definitiva para <span>HDD</span></h2>
+            <p data-i18n="home.heroSubtitle">Calcula, planifica y optimiza tus proyectos de perforación.</p>
+            <a href="#" class="cta-btn" data-i18n="home.ctaButton">Próximamente en dispositivos móviles</a>
         
             <div class="store-badges">
                 <a href="#" class="badge app-store">
                     <i class="fab fa-apple"></i>
                     <div class="text">
-                        <span>Coming soon...</span>
+                        <span data-i18n="home.comingSoon">Coming soon...</span>
                         <span>App Store</span>
                     </div>
                 </a>
                 <a href="#" class="badge google-play">
                     <i class="fab fa-google-play"></i>
                     <div class="text">
-                        <span>Coming soon...</span>
+                        <span data-i18n="home.comingSoon">Coming soon...</span>
                         <span>Google Play</span>
                     </div>
                 </a>
             </div>
         </div>
-        </div>
     </section>
 
     <section class="app-mockups">
-        <h2 class="section-title">Conoce la <span>app</span></h2>
+        <h2 class="section-title" data-i18n-html="home.mockupTitle">Conoce la <span>app</span></h2>
         <div class="mockup-container">
             <div class="app-screenshot">
                 <img src="assets/mockup-screen1.png" alt="Pantalla 1 de la app">
-                <p>Varios lenguajes</p>
+                <p data-i18n="home.mockupText1">Varios lenguajes</p>
             </div>
             <div class="app-screenshot">
                 <img src="assets/mockup-screen2.png" alt="Pantalla 2 de la app">
-                <p>Multiples funciones</p>
+                <p data-i18n="home.mockupText2">Multiples funciones</p>
             </div>
             <div class="app-screenshot">
                 <img src="assets/mockup-screen3.png" alt="Pantalla 3 de la app">
-                <p>Interfaz intuitiva</p>
+                <p data-i18n="home.mockupText3">Interfaz intuitiva</p>
             </div>
         </div>
     </section>
 
     <!-- Features Section -->
     <section class="features animated fadeIn" id="features">
-        <h2 class="section-title">Características <span>Principales</span></h2>
+        <h2 class="section-title" data-i18n-html="features.title">Características <span>Principales</span></h2>
         <div class="features-grid">
             <!-- Tarjetas de características generadas por JavaScript -->
         </div>
@@ -82,7 +87,7 @@
 
     <!-- App Showcase -->
     <section class="showcase" id="showcase">
-        <h2 class="section-title">Mantente <span>informado</span></h2>
+        <h2 class="section-title" data-i18n-html="showcase.title">Mantente <span>informado</span></h2>
         <div class="video-container">
             <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
         </div>

@@ -1,0 +1,97 @@
+{
+    "home": {
+        "title": "HDD ProCalc - Tus cálculos para perforación direccional",
+        "heroTitle": "La herramienta definitiva para <span>HDD</span>",
+        "heroSubtitle": "Calcula, planifica y optimiza tus proyectos de perforación.",
+        "ctaButton": "Próximamente en dispositivos móviles",
+        "comingSoon": "Próximamente...",
+        "mockupTitle": "Conoce la <span>app</span>",
+        "mockupText1": "Varios lenguajes",
+        "mockupText2": "Múltiples funciones",
+        "mockupText3": "Interfaz intuitiva"
+    },
+    "about": {
+        "title": "Acerca de HDD ProCalc",
+        "header": "Acerca de HDD ProCalc",
+        "subtitle": "La herramienta definitiva para profesionales de perforación dirigida",
+        "ourApp": "Nuestra Aplicación",
+        "appDescription": "HDD ProCalc es una aplicación móvil diseñada para profesionales de perforación direccional horizontal (HDD) que necesitan realizar cálculos precisos y rápidos en el campo. Nuestra misión es simplificar los procesos técnicos y mejorar la eficiencia en los proyectos de perforación.",
+        "timeline": {
+            "concept": "Concepto Inicial",
+            "conceptText": "La idea de HDD ProCalc nació de la necesidad de tener una herramienta confiable para cálculos rápidos sin necesidad de conexión a internet.",
+            "development": "Desarrollo",
+            "developmentText": "Comenzó el desarrollo activo de la aplicación, incorporando feedback de profesionales de la industria para garantizar que cubriera todas las necesidades del sector.",
+            "launch": "Lanzamiento",
+            "launchText": "HDD ProCalc está programado para lanzarse en el primer semestre de 2025, disponible tanto en App Store como en Google Play."
+        },
+        "team": "Nuestro Equipo",
+        "roles": {
+            "developer": "Desarrollador",
+            "hddProfessional": "Profesional de HDD"
+        },
+        "docs": "Documentación",
+        "terms": {
+            "title": "Términos de Servicio",
+            "text1": "Al utilizar HDD ProCalc, aceptas nuestros Términos de Servicio. La aplicación está diseñada para proporcionar cálculos basados en los datos ingresados por el usuario, pero no nos hacemos responsables por decisiones tomadas basadas en estos resultados.",
+            "text2": "La aplicación está destinada a ser utilizada como herramienta de apoyo y no sustituye el juicio profesional de ingenieros calificados."
+        },
+        "privacy": {
+            "title": "Política de Privacidad",
+            "text": "Respetamos tu privacidad. HDD ProCalc no recopila ni almacena tus datos personales sin tu consentimiento. Los cálculos realizados en la aplicación permanecen en tu dispositivo a menos que elijas compartirlos."
+        },
+        "manual": {
+            "title": "Manual de Usuario",
+            "text1": "HDD ProCalc incluye manuales en la aplicación, y las funciones integradas tienen descripción detallada para su fácil comprensión. También ofrecemos tutoriales en video y una sección de preguntas frecuentes.",
+            "text2": "Las actualizaciones periódicas incluirán nuevas características y mejoras basadas en los comentarios de los usuarios."
+        },
+        "license": {
+            "title": "Licencia",
+            "text1": "HDD ProCalc está disponible bajo una licencia de uso personal, entregamos las funciones al usuario de manera gratuita.",
+            "text2": "La redistribución o modificación del código está estrictamente prohibida sin autorización expresa."
+        }
+    },
+    "contact": {
+        "title": "Contacto y Soporte",
+        "description": "Para preguntas, sugerencias o reporte de problemas, por favor contáctanos:",
+        "email": "Email",
+        "phone": "Teléfono",
+        "backButton": "Volver a la página principal"
+    },
+    "nav": {
+        "features": "Características",
+        "about": "Acerca de",
+        "contact": "Contacto"
+    },
+    "features": {
+        "title":"Características <span>Principales</span>",
+        "items": [
+            {
+                "icon": "fa-calculator",
+                "title": "Cálculos Precisos",
+                "description": "Diferentes calculadoras ofrecidas al usuario."
+            },
+            {
+                "icon": "fa-users",
+                "title": "Planificación",
+                "description": "Asesoramiento personalizado."
+            },
+            {
+                "icon": "fa-file-export",
+                "title": "Reportes PDF",
+                "description": "Generación automática de documentación."
+            }
+        ]
+    },
+    "showcase":{
+        "title":"Mantente <span>informado</span>"
+    },
+
+    "footer": {
+        "links": [
+          { "text": "Características", "href": "#features" },
+          { "text": "Demo", "href": "#showcase" },
+          { "text": "Soporte", "href": "about.html#contact" },
+          { "text": "Términos", "href": "about.html#terms" }
+        ]
+      }
+}

@@ -130,6 +130,36 @@ header {
     cursor: pointer;
 }
 
+.language-switcher {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.lang-btn {
+    background: none;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lang-btn:hover {
+    background: #AA0000;
+    border: #da1b1b;
+}
+
+.lang-btn.active {
+    background: #4d1919;
+    color: white;
+    border-color: #701616;
+}
+
 /* Primera sección */
 .hero {
     height: 100vh;
@@ -485,6 +515,7 @@ footer {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     padding: 2rem;
     margin-bottom: 2rem;
+    align-items: center;
 }
 
 .team-grid {
@@ -605,6 +636,12 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+    .language-switcher {
+        margin: 10px 0;
+        justify-content: center;
+    }
+
     .nav-links {
         position: fixed;
         top: 80px;
