@@ -162,7 +162,7 @@ header {
 
 /* Primera sección */
 .hero {
-    padding-top: 100px; /* Ajusta este valor según la altura de tu navbar */
+    padding-top: 120x; /* Ajusta este valor según la altura de tu navbar */
     min-height: calc(100vh - 80px); /* Resta la altura del navbar */
     display: flex;
     flex-direction: column;
@@ -195,6 +195,7 @@ header {
 
 
 .hero-logo {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
