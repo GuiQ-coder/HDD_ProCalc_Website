@@ -42,7 +42,8 @@
         "manual": {
             "title": "Manual de Usuario",
             "text1": "HDD ProCalc incluye manuales en la aplicación, y las funciones integradas tienen descripción detallada para su fácil comprensión. También ofrecemos tutoriales en video y una sección de preguntas frecuentes.",
-            "text2": "Las actualizaciones periódicas incluirán nuevas características y mejoras basadas en los comentarios de los usuarios."
+            "text2": "Las actualizaciones periódicas incluirán nuevas características y mejoras basadas en los comentarios de los usuarios.",
+            "docLink": "Ir a la documentación completa"
         },
         "license": {
             "title": "Licencia",

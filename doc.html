@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación Completa - HDD ProCalc</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">HDD <span>ProCalc</span></a>
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#features">Características</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="about.html#contact">Contacto</a></li>
+                <li><a href="doc.html" class="active">Documentación</a></li>
+                <li>
+                    <div class="language-switcher">
+                        <button class="lang-btn" data-lang="es">ES</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Documentación Header -->
+    <section class="about-header">
+        <div class="hero-logo">
+            <img src="assets/IconApp.png" alt="HDD ProCalc IconApp">
+            <h1>Documentación <span>Completa</span></h1>
+        </div>
+        <p>Toda la información técnica sobre las funcionalidades de HDD ProCalc</p>
+    </section>
+
+    <!-- Contenido de Documentación -->
+    <main class="about-container">
+        <!-- Sección de Introducción -->
+        <section class="section-card">
+            <h2>Introducción a HDD ProCalc</h2>
+            <p>HDD ProCalc es una aplicación móvil profesional desarrollada con Flutter para crear una solución multiplataforma (iOS y Android) diseñada para ayudar a técnicos, ingenieros y profesionales en la industria de Perforación Direccional Horizontal (HDD).</p>
+        </section>
+
+        <!-- Calculadoras -->
+        <section class="section-card">
+            <h2>Calculadoras</h2>
+            
+            <article class="doc-section">
+                <h3>Calculadora de distancia de retroceso</h3>
+                <p>Calcula la distancia óptima de retroceso para equipos de perforación basándose en especificaciones de la máquina y condiciones del sitio.</p>
+                <h4>Instrucciones de uso:</h4>
+                <ol>
+                    <li>Ingrese las especificaciones del equipo</li>
+                    <li>Introduzca las condiciones del terreno</li>
+                    <li>La aplicación calculará automáticamente la distancia recomendada</li>
+                </ol>
+            </article>
+            
+            <article class="doc-section">
+                <h3>Calculadora de peso de tubería</h3>
+                <p>Determina el peso de las tuberías considerando material, diámetro y longitud para un manejo e instalación adecuados.</p>
+                <h4>Parámetros requeridos:</h4>
+                <ul>
+                    <li>Tipo de material (acero, HDPE, etc.)</li>
+                    <li>Diámetro exterior e interior</li>
+                    <li>Longitud de la sección</li>
+                </ul>
+            </article>
+            
+            <article class="doc-section">
+                <h3>Calculadora de estrés de tracción HDPE</h3>
+                <p>Calcula el estrés máximo permisible de tracción para tuberías HDPE durante la instalación para prevenir daños.</p>
+            </article>
+            
+            <article class="doc-section">
+                <h3>Control de flotabilidad</h3>
+                <p>Determina las fuerzas de flotación que actúan en las tuberías en el fluido de perforación para asegurar una gestión adecuada del peso.</p>
+            </article>
+        </section>
+
+        <!-- Tablas de Referencia -->
+        <section class="section-card">
+            <h2>Tablas de Referencia</h2>
+            
+            <article class="doc-section">
+                <h3>Especificaciones de torque de ensamblaje</h3>
+                <p>Proporciona valores de torque recomendados para conexiones de tuberías basados en tamaño, material y tipo de rosca.</p>
+                <h4>Datos incluidos:</h4>
+                <ul>
+                    <li>Torque para diferentes grados de acero</li>
+                    <li>Ajustes para condiciones de lubricación</li>
+                    <li>Factores de seguridad recomendados</li>
+                </ul>
+            </article>
+            
+            <article class="doc-section">
+                <h3>Galería de medidas de roscas</h3>
+                <p>Referencia completa para varias especificaciones de roscas de tuberías incluyendo dimensiones y tolerancias.</p>
+            </article>
+            
+            <article class="doc-section">
+                <h3>Tabla de grado a porcentaje</h3>
+                <p>Referencia de conversión entre grados angulares y porcentajes de pendiente.</p>
+            </article>
+        </section>
+
+        <!-- Herramientas de Análisis -->
+        <section class="section-card">
+            <h2>Herramientas de Análisis</h2>
+            
+            <article class="doc-section">
+                <h3>Tasa de penetración (ROP)</h3>
+                <p>Calcula la eficiencia de perforación midiendo la tasa de penetración a lo largo del tiempo o por longitud de tubería.</p>
+                <h4>Fórmula utilizada:</h4>
+                <p>ROP = (Profundidad alcanzada) / (Tiempo de perforación)</p>
+            </article>
+            
+            <article class="doc-section">
+                <h3>Análisis de curva completa</h3>
+                <p>Proporciona cálculos completos de curvatura para trayectorias complejas de perforación.</p>
+            </article>
+            
+            <article class="doc-section">
+                <h3>Visualización de gráfico de barras</h3>
+                <p>Representación gráfica de datos de perforación para análisis rápido y toma de decisiones.</p>
+            </article>
+        </section>
+
+            <!-- Manuales y Guías -->
+<section class="section-card">
+    <h2>Manuales y Guías</h2>
+    
+    <article class="doc-section">
+        <h3>Manuales de equipos</h3>
+        <p>Biblioteca digital de manuales de maquinaria para consulta rápida en el campo.</p>
+        
+        <div class="pdf-downloads">
+            <h4>Descargar manuales:</h4>
+            <ul class="pdf-list">
+                <li>
+                    <a href="pdf/JT25.pdf" download class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> JT 25 (PDF, 6.6MB)
+                    </a>
+                </li>
+                <li>
+                    <a href="pdf/JT30.pdf" download class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> JT 30 (PDF, 9.4MB)
+                    </a>
+                </li>
+                <li>
+                    <a href="pdf/JT40.pdf" download class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> JT 40 (PDF, 22.6MB)
+                    </a>
+                </li>
+                <li>
+                    <a href="pdf/PipeTables.pdf" download class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> PipeTables (PDF, 0.6MB)
+                    </a>
+                </li>
+                <li>
+                    <a href="pdf/VermeerD16x20ANavigator.pdf" download class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> Vermeer D16x20A Navigator (PDF, 11.7MB)
+                    </a>
+                </li>
+                <li>
+                    <a href="pdf/VermeerD20x22Navigator.pdf" download class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> Vermeer D20x2 Navigator (PDF, 5.3MB)
+                    </a>
+                </li>
+                <li>
+                    <a href="pdf/VermeerD24x40SeriesIINavigator.pdf" download class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> Vermeer D24x40 Series II Navigator (PDF, 4.8MB)
+                    </a>
+                </li>
+                <li>
+                    <a href="pdf/VermeerD40x40NavtecNavigator.pdf" download class="pdf-link">
+                        <i class="fas fa-file-pdf"></i> Vermeer D40x40 Navtec Navigator (PDF, 4.4MB)
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </article>
+    
+    <article class="doc-section">
+        <h3>Guía de aditivos de perforación</h3>
+        <p>Referencia para aditivos de fluidos de perforación con proporciones de mezcla y pautas de aplicación.</p>
+    </article>
+</section>
+
+        <div class="text-center">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Volver al Inicio
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="doc.html">Documentación</a></li>
+            <li><a href="about.html#contact">Contacto</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://github.com/GuiQ-coder/HDD_ProCalc_APP"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-app-store"></i></a>
+            <a href="#"><i class="fab fa-google-play"></i></a>
+        </div>
+        <p class="copyright">© 2025 HDD ProCalc. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

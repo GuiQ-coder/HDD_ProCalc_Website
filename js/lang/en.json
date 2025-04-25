@@ -31,6 +31,7 @@
         },
         "docs": "Documentation",
         "terms": {
+            
             "title": "Terms of Service",
             "text1": "By using HDD ProCalc, you agree to our Terms of Service. The application is designed to provide calculations based on user input, but we are not responsible for decisions made based on these results.",
             "text2": "The application is intended to be used as a support tool and does not replace the professional judgment of qualified engineers."
@@ -42,7 +43,8 @@
         "manual": {
             "title": "User Manual",
             "text1": "HDD ProCalc includes in-app manuals, and built-in functions have detailed descriptions for easy understanding. We also offer video tutorials and a FAQ section.",
-            "text2": "Regular updates will include new features and improvements based on user feedback."
+            "text2": "Regular updates will include new features and improvements based on user feedback.",
+            "docLink": "Go to the complete Documentation"
         },
         "license": {
             "title": "License",
