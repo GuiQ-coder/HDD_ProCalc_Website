@@ -1,12 +1,12 @@
 {
     "manuales": {
-      "JT 25": "https://hdd-pro-calc-website.vercel.app/api/pdf/JT25.pdf",
-      "JT 30": "https://hdd-pro-calc-website.vercel.app/api/pdf/JT30.pdf",
-      "JT 40": "https://hdd-pro-calc-website.vercel.app/api/pdf/JT40.pdf",
-      "Pipe Tables": "https://hdd-pro-calc-website.vercel.app/api/pdf/PipeTables.pdf",
-      "Vermeer D16x20A Navigator": "https://hdd-pro-calc-website.vercel.app/api/pdf/VermeerD16x20ANavigator.pdf",
-      "Vermeer D20x22 Navigator": "https://hdd-pro-calc-website.vercel.app/api/pdf/VermeerD20x22Navigator.pdf",
-      "Vermeer D24x40 Series II Navigator": "https://hdd-pro-calc-website.vercel.app/api/pdf/VermeerD24x40SeriesIINavigator.pdf",
-      "Vermeer D40x40 Navtec Navigator": "https://hdd-pro-calc-website.vercel.app/api/pdf/VermeerD40x40NavtecNavigator.pdf"
+      "JT 25": "/pdf/JT25.pdf",
+      "JT 30": "/pdf/JT30.pdf",
+      "JT 40": "/pdf/JT40.pdf",
+      "Pipe Tables": "/pdf/PipeTables.pdf",
+      "Vermeer D16x20A Navigator": "/pdf/VermeerD16x20ANavigator.pdf",
+      "Vermeer D20x22 Navigator": "/pdf/VermeerD20x22Navigator.pdf",
+      "Vermeer D24x40 Series II Navigator": "/pdf/VermeerD24x40SeriesIINavigator.pdf",
+      "Vermeer D40x40 Navtec Navigator": "/pdf/VermeerD40x40NavtecNavigator.pdf"
     }
   }
