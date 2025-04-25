@@ -202,9 +202,13 @@ header {
 }
 
 .hero-logo img {
-    width: 160px;
+    max-width: 150px;
     height: auto;
-    margin-bottom: 1rem;
+    display: block;
+    margin: 0 auto;
+    /* Forzar renderizado GPU */
+    transform: translateZ(0);
+    backface-visibility: hidden;
 }
 
 .hero-logo h1 {
